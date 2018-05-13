@@ -9,6 +9,11 @@ p {
     font-size: 0.8em;
 }
 
+img {
+    display: inline;
+    padding-right: 5px;
+}
+
 .centerContent {
     text-align: center;
 }
@@ -52,10 +57,17 @@ p {
     border-color: #555;
     border-style: solid;
     border-width: 0.5px;
+
+    min-width: 75%;
 }
 
 .dashboard .dashboardSection .dashboardLink h4 {
     text-align: left;
+}
+
+.dashboard .dashboardSection .dashboardLink h4 a {
+    color: #000;
+    text-decoration: none !important;
 }
 
 .dashboard .dashboardSection .dashboardLink p {

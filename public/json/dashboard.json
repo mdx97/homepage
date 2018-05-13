@@ -1,0 +1,45 @@
+{
+    "sections": {
+        "Social Media": {
+            "fb": {
+                "linkTitle": "Facebook",
+                "link": "http://facebook.com",
+                "description": "A link directly to my facebook feed or the login portal."
+            },
+            "twt": {
+                "linkTitle": "Twitter",
+                "link": "http://www.twitter.com",
+                "description": "A link directly to my twitter feed or the login portal."
+            },
+            "reddit": {
+                "linkTitle": "reddit",
+                "link": "http://www.reddit.com",
+                "description": "The frontpage of the internet."
+            }
+        },
+        "Section 2": {
+            "s2l1": {
+                "linkTitle": "Link 1",
+                "link": "http://www.yahoo.com",
+                "description": "Some lengthy description about the link that makes no difference whatsoever in this dummy text and also makes little to no difference whatsoever in life in general."
+            },
+            "s2l2": {
+                "linkTitle": "Link 2",
+                "link": "http://www.google.com",
+                "description": "Some lengthy description about the link that makes no difference whatsoever in this dummy text and also makes little to no difference whatsoever in life in general."
+            }
+        },
+        "Section 3": {
+            "s3l1": {
+                "linkTitle": "Link 1",
+                "link": "http://www.google.com",
+                "description": "Some lengthy description about the link that makes no difference whatsoever in this dummy text and also makes little to no difference whatsoever in life in general."
+            },
+            "s3l2": {
+                "linkTitle": "Link 2",
+                "link": "http://www.google.com",
+                "description": "Some lengthy description about the link that makes no difference whatsoever in this dummy text and also makes little to no difference whatsoever in life in general."
+            }
+        }
+    }
+}
