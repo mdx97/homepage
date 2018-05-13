@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-weight: 400;
+    font-size: 0.8em;
+}
+
+.centerContent {
+    text-align: center;
+}
+
+/*
+    Header
+*/
+.headerDisplay {
+    display: inline-block;
+    background-color: #FFF;
+    text-align: center;
+
+    margin-top: 10px;
+    padding: 0px 200px 0px 200px;
+
+    border-color: #555;
+    border-style: solid;
+    border-width: 0.5px;
+}
+
+.headerDisplay h1 {
+    color: #000;
+}
+
+/*
+    Dashboard
+*/
+.dashboard {
+    display: inline-block;
+}
+
+.dashboard .dashboardSectionTitle {
+    margin-top: 50px;
+}
+
+.dashboard .dashboardSection {
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    border-color: #555;
+    border-style: solid;
+    border-width: 0.5px;
+}
+
+.dashboard .dashboardSection .dashboardLink h4 {
+    text-align: left;
+}
+
+.dashboard .dashboardSection .dashboardLink p {
+    text-align: left;
+}
