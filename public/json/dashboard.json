@@ -1,6 +1,11 @@
 {
     "sections": {
         "Social Media": {
+            "reddit": {
+                "linkTitle": "reddit",
+                "link": "http://www.reddit.com",
+                "description": "The frontpage of the internet."
+            },
             "fb": {
                 "linkTitle": "Facebook",
                 "link": "http://facebook.com",
@@ -11,58 +16,63 @@
                 "link": "http://www.twitter.com",
                 "description": "A link directly to my twitter feed or the login portal."
             },
-            "reddit": {
-                "linkTitle": "reddit",
-                "link": "http://www.reddit.com",
-                "description": "The frontpage of the internet."
+            "lnkin": {
+                "linkTitle": "linkedIn",
+                "link": "http://www.linkedin.com",
+                "description": "Link to my linkedIn page."
             }
         },
-        "Section 2": {
-            "s2l1": {
-                "linkTitle": "Link 1",
-                "link": "http://www.yahoo.com",
-                "description": "Some lengthy description about the link that makes no difference whatsoever in this dummy text and also makes little to no difference whatsoever in life in general."
+        "Tech and Development Reading": {
+            "bestsites": {
+                "linkTitle": "Best Websites a Programmer Can Visit",
+                "link": "https://becominghuman.ai/code-wonders-96d629bb8d8c",
+                "description": "This article contains a list of some of the best websites and resources for developers."
             },
-            "s2l2": {
-                "linkTitle": "Link 2",
-                "link": "http://www.google.com",
-                "description": "Some lengthy description about the link that makes no difference whatsoever in this dummy text and also makes little to no difference whatsoever in life in general."
+            "betterdev": {
+                "linkTitle": "Better Dev Link",
+                "link": "https://betterdev.link/",
+                "description": "A site that links to articles from many different areas of software development. Updated Weekly."
             }
         },
-        "Section 3": {
-            "s3l1": {
-                "linkTitle": "Link 1",
-                "link": "http://www.google.com",
-                "description": "Some lengthy description about the link that makes no difference whatsoever in this dummy text and also makes little to no difference whatsoever in life in general."
+        "Development Documentation": {
+            "node": {
+                "linkTitle": "NodeJS",
+                "link": "https://nodejs.org/api/",
+                "description": "Documentation for nodejs javascript runtime environment."
             },
-            "s3l2": {
-                "linkTitle": "Link 2",
-                "link": "http://www.google.com",
-                "description": "Some lengthy description about the link that makes no difference whatsoever in this dummy text and also makes little to no difference whatsoever in life in general."
+            "bootstrap": {
+                "linkTitle": "Bootstrap",
+                "link": "https://getbootstrap.com/docs/4.0/layout/overview/",
+                "description": "Documentation for the front-end library Bootstrap."
+            },
+            "html": {
+                "linkTitle": "HTML",
+                "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element",
+                "description": "Documentation for HTML."
+            },
+            "css": {
+                "linkTitle": "CSS",
+                "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference#Keyword_index",
+                "description": "Documentation for cascading style sheets (CSS)."
             }
         },
-        "Section 4": {
-            "s4l1": {
-                "linkTitle": "Link 1",
-                "link": "http://www.google.com",
-                "description": "Some lengthy description about the link that makes no difference whatsoever in this dummy text and also makes little to no difference whatsoever in life in general."
+        "General Entertainment": {
+            "netflix": {
+                "linkTitle": "Netflix",
+                "link": "http://netflix.com",
+                "description": "Link to my netflix home page."
             },
-            "s4l2": {
-                "linkTitle": "Link 2",
-                "link": "http://www.google.com",
-                "description": "Some lengthy description about the link that makes no difference whatsoever in this dummy text and also makes little to no difference whatsoever in life in general."
+            "youtube": {
+                "linkTitle": "Youtube Home",
+                "link": "http://www.youtube.com",
+                "description": "Link to my youtube home page."
             }
         },
-        "Section 5": {
-            "s5l1": {
-                "linkTitle": "Link 1",
-                "link": "http://www.google.com",
-                "description": "Some lengthy description about the link that makes no difference whatsoever in this dummy text and also makes little to no difference whatsoever in life in general."
-            },
-            "s5l2": {
-                "linkTitle": "Link 2",
-                "link": "http://www.google.com",
-                "description": "Some lengthy description about the link that makes no difference whatsoever in this dummy text and also makes little to no difference whatsoever in life in general."
+        "Reading for Fun": {
+            "shkspr": {
+                "linkTitle": "Shakespeare",
+                "link": "http://shakespeare.mit.edu/",
+                "description": "A repository of the complete works of William Shakespeare."
             }
         }
     }

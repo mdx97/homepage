@@ -14,17 +14,17 @@ $(document).ready(function() {
     $('#collapseSidebar').click(function() {
         $('.sidebar').animate({
             width: 0
-        }, 500, function() {
+        }, 800, function() {
             $('.sidebar').hide();
         });
 
         $('.sidebar').children().animate({
             opacity: 0
-        }, 250);
+        }, 400);
 
         $('.dashboardWrapper').animate({
             "margin-left": "0px"
-        }, 500, function() {
+        }, 800, function() {
             $('#collapseSidebar').hide();
             $('#showSidebar').show();
         });
@@ -36,18 +36,18 @@ $(document).ready(function() {
 
         $('.sidebar').animate({
             width: "100%"
-        }, 500);
+        }, 800);
 
-        $('.sidebar').children().delay(250).animate({
+        $('.sidebar').children().delay(400).animate({
             opacity: 1
-        }, 250, function() {
+        }, 400, function() {
             $('#collapseSidebar').css('opacity', '0.5');
         });
 
         $('.dashboardWrapper').animate({
             "margin-left": "15%"
-        }, 500, function() {
+        }, 800, function() {
             $('#collapseSidebar').show();
         });
-    })
+    });
 });

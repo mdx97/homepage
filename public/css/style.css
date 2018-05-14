@@ -19,11 +19,6 @@ img {
     padding-right: 5px;
 }
 
-.dashboardWrapper {
-    margin-left: 15%;
-    text-align: center;
-}
-
 /*
     Side bar
 */
@@ -83,6 +78,51 @@ img {
 }
 
 /*
+    Sidebar sections
+*/
+
+.sidebar .sidebarSections {
+    margin-top: 40px;
+}
+
+.sidebar .sidebarSections .sidebarSectionTitle {
+    font-size: 0.9em;
+    margin-left: 10px;
+    text-align: left;
+    margin: 0;
+    padding-bottom: 2px;
+    padding-left: 4px;
+    color: #FFF;
+    font-weight: 200;
+    border-bottom-color: #FFF;
+    border-bottom-width: 0.5px;
+    border-bottom-style: solid;
+}
+
+.sidebar .sidebarSections .sidebarJump {
+    padding-top: 2px;
+}
+
+.sidebar .sidebarSections .sidebarJump .sidebarLink {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size: 0.75em;
+    text-align: left;
+    display: block;
+    margin: 0;
+    padding: 2px 0px 2px 4px;
+    border: none;
+    background-color: #000;
+    color: #FFF;
+    opacity: 0.5;
+    width: 100%;
+}
+
+.sidebar .sidebarSections .sidebarJump .sidebarLink:focus {
+    outline: 0;
+}
+
+/*
     Header
 */
 .headerDisplay {
@@ -106,8 +146,14 @@ img {
 /*
     Dashboard
 */
+.dashboardWrapper {
+    margin-left: 15%;
+    text-align: center;
+}
+
 .dashboard {
     display: inline-block;
+    min-width: 100%;
 }
 
 .dashboard .dashboardSectionTitle {
@@ -124,7 +170,7 @@ img {
     border-style: solid;
     border-width: 0.5px;
 
-    min-width: 100%;
+    min-width: 75%;
 }
 
 .dashboard .dashboardSection .dashboardLink h4 {
