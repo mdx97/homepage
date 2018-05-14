@@ -31,7 +31,7 @@ $(document).ready(function() {
 
             $('.sidebarLink').click(function() {
                 var id = "#" + $(this).text().split(' ').join('_');
-                $('html, body').stop().animate({scrollTop: $(id).offset().top}, 2000);
+                $('html, body').stop().animate({scrollTop: $(id).offset().top}, 1000);
             });
         });
     });
