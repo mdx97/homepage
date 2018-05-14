@@ -20,7 +20,7 @@ $(document).ready(function() {
 
         $('.sidebar').children().animate({
             opacity: 0
-        }, 400);
+        }, 300);
 
         $('.dashboardWrapper').animate({
             "margin-left": "0px"
@@ -38,9 +38,9 @@ $(document).ready(function() {
             width: "100%"
         }, 800);
 
-        $('.sidebar').children().delay(400).animate({
+        $('.sidebar').children().delay(500).animate({
             opacity: 1
-        }, 400, function() {
+        }, 300, function() {
             $('#collapseSidebar').css('opacity', '0.5');
         });
 
