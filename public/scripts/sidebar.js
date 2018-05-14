@@ -40,7 +40,9 @@ $(document).ready(function() {
 
         $('.sidebar').children().delay(250).animate({
             opacity: 1
-        }, 250);
+        }, 250, function() {
+            $('#collapseSidebar').css('opacity', '0.5');
+        });
 
         $('.dashboardWrapper').animate({
             "margin-left": "15%"

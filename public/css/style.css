@@ -73,6 +73,10 @@ img {
     opacity: 0.5;
 }
 
+.arrowButton:focus {
+    outline: 0;
+}
+
 .arrowButton img {
     height: 25px;
     width: 25px;
