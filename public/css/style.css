@@ -1,3 +1,8 @@
+/*
+    TODO:
+        Why is my css so trash? Clean it up
+*/
+
 body {
     margin: 0;
     padding: 0;
@@ -14,8 +19,63 @@ img {
     padding-right: 5px;
 }
 
-.centerContent {
+.dashboardWrapper {
+    margin-left: 15%;
     text-align: center;
+}
+
+/*
+    Side bar
+*/
+
+.sidebarWrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 15%;
+}
+.sidebar {
+    text-align: center;
+    background-color: #000;
+    height: 100%;
+    width: 100%;
+}
+
+.sidebar h2 {
+    margin: 0;
+    padding: 50px 0px 0px 0px;
+    color: #FFF;
+    font-weight: 300;
+}
+
+.sidebar h2 img {
+    margin: 0;
+    padding: 0px;
+    padding-right: 5px;
+    height: 20px;
+    width: 20px;
+}
+
+#showSidebar {
+    display: none;
+    background-color: #FFF;
+}
+
+#collapseSidebar {
+    background-color: #000;
+    float: right;
+}
+
+.arrowButton {
+    border: none;
+    margin-top: 5px;
+    opacity: 0.5;
+}
+
+.arrowButton img {
+    height: 25px;
+    width: 25px;
 }
 
 /*
@@ -35,6 +95,7 @@ img {
 }
 
 .headerDisplay h1 {
+    font-weight: 300;
     color: #000;
 }
 
@@ -46,6 +107,7 @@ img {
 }
 
 .dashboard .dashboardSectionTitle {
+    font-weight: 300;
     margin-top: 50px;
 }
 
@@ -58,10 +120,11 @@ img {
     border-style: solid;
     border-width: 0.5px;
 
-    min-width: 75%;
+    min-width: 100%;
 }
 
 .dashboard .dashboardSection .dashboardLink h4 {
+    font-weight: 400;
     text-align: left;
 }
 
