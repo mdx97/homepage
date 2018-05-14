@@ -18,19 +18,19 @@ $(document).ready(function() {
         jqxhr.done(function () {
             // Sidebar links hovering
             $('.sidebarLink').mouseenter(function() {
+                $(this).stop();
                 $(this).animate({opacity: 1}, 250);
                 $(this).css({"background-color": "#111"});
             });
 
             $('.sidebarLink').mouseleave(function() {
+                $(this).stop();
                 $(this).animate({opacity: 0.5}, 250);
                 $(this).css({"background-color": "#000"});
             });
 
             $('.sidebarLink').click(function() {
-                console.log("clicked");
                 var id = "#" + $(this).text().split(' ').join('_');
-                console.log(id);
                 $('html, body').stop().animate({scrollTop: $(id).offset().top}, 2000);
             });
         });

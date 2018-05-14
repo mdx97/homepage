@@ -3,10 +3,12 @@
 $(document).ready(function() {
     // Collapse and show sidebar mouseenter and leave handlers
     $('.arrowButton').mouseenter(function() {
+        $(this).stop();
         $(this).animate({opacity: 1.0}, 250);
     });
 
     $('.arrowButton').mouseleave(function() {
+        $(this).stop();
         $(this).animate({opacity: 0.5}, 250);
     });
 
