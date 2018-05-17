@@ -75,6 +75,7 @@ img {
 .arrowButton img {
     height: 25px;
     width: 25px;
+    cursor: pointer;
 }
 
 /*
@@ -91,7 +92,7 @@ img {
     text-align: left;
     margin: 0;
     padding-bottom: 2px;
-    padding-left: 4px;
+    padding-left: 6px;
     color: #FFF;
     font-weight: 200;
     border-bottom-color: #FFF;
@@ -110,12 +111,13 @@ img {
     text-align: left;
     display: block;
     margin: 0;
-    padding: 2px 0px 2px 4px;
+    padding: 2px 0px 2px 6px;
     border: none;
     background-color: #000;
     color: #FFF;
     opacity: 0.5;
     width: 100%;
+    cursor: pointer;
 }
 
 .sidebar .sidebarSections .sidebarJump .sidebarLink:focus {

@@ -50,6 +50,11 @@
                 "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element",
                 "description": "Documentation for HTML."
             },
+			"csstricks": {
+				"linkTitle": "CSS Tricks",
+				"link": "https://css-tricks.com/",
+				"description": "This site contains many different articles on cool stuff you can do with CSS. Along with code snippets, as well."
+			},
             "css": {
                 "linkTitle": "CSS",
                 "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference#Keyword_index",
