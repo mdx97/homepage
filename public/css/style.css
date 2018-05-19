@@ -35,6 +35,7 @@ img {
     background-color: #000;
     height: 100%;
     width: 100%;
+    box-shadow: 1px 0px 2px #000;
 }
 
 .sidebar h2 {
@@ -102,6 +103,7 @@ img {
 
 .sidebar .sidebarSections .sidebarJump {
     padding-top: 2px;
+    /*overflow-y: scroll;*/
 }
 
 .sidebar .sidebarSections .sidebarJump .sidebarLink {
@@ -173,6 +175,8 @@ img {
     border-width: 0.5px;
 
     min-width: 75%;
+
+    box-shadow: 5px 5px 5px #999;
 }
 
 .dashboard .dashboardSection .dashboardLink h4 {
