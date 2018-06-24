@@ -1,28 +1,40 @@
 {
     "sections": {
-        "Social Media": {
+        "Most Visited": {
             "reddit": {
                 "linkTitle": "reddit",
                 "link": "http://www.reddit.com",
                 "description": "The frontpage of the internet."
             },
-            "fb": {
-                "linkTitle": "Facebook",
-                "link": "http://facebook.com",
-                "description": "A link directly to my facebook feed or the login portal."
+            "netflix": {
+                "linkTitle": "Netflix",
+                "link": "http://netflix.com",
+                "description": "Link to my netflix home page."
             },
-            "twt": {
-                "linkTitle": "Twitter",
-                "link": "http://www.twitter.com",
-                "description": "A link directly to my twitter feed or the login portal."
-            },
-            "lnkin": {
-                "linkTitle": "linkedIn",
-                "link": "http://www.linkedin.com",
-                "description": "Link to my linkedIn page."
+            "youtube": {
+                "linkTitle": "Youtube Home",
+                "link": "http://www.youtube.com",
+                "description": "Link to my youtube home page."
             }
         },
+		"News and Politics": {
+            "bbc": {
+				"linkTitle": "BBC News",
+				"link": "https://www.bbc.com/news/world/us_and_canada",
+				"description": "Direct link to the BBC news U.S. and Canada section."
+			},
+			"pbs": {
+				"linkTitle": "PBS Newshour",
+				"link": "https://www.youtube.com/user/PBSNewsHour/featured",
+				"description": "PBS Newshour's youtube page."
+			}
+        },
         "Tech and Development Reading": {
+			"sfed": {
+				"linkTitle": "Software Engineering Daily",
+				"link": "https://softwareengineeringdaily.com/",
+				"description": "A tech site that produces articles and podcasts related to Software Engineering."
+			},
             "bestsites": {
                 "linkTitle": "Best Websites a Programmer Can Visit",
                 "link": "https://becominghuman.ai/code-wonders-96d629bb8d8c",
@@ -59,25 +71,6 @@
                 "linkTitle": "CSS",
                 "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference#Keyword_index",
                 "description": "Documentation for cascading style sheets (CSS)."
-            }
-        },
-        "General Entertainment": {
-            "netflix": {
-                "linkTitle": "Netflix",
-                "link": "http://netflix.com",
-                "description": "Link to my netflix home page."
-            },
-            "youtube": {
-                "linkTitle": "Youtube Home",
-                "link": "http://www.youtube.com",
-                "description": "Link to my youtube home page."
-            }
-        },
-        "Reading for Fun": {
-            "shkspr": {
-                "linkTitle": "Shakespeare",
-                "link": "http://shakespeare.mit.edu/",
-                "description": "A repository of the complete works of William Shakespeare."
             }
         }
     }

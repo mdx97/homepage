@@ -12,6 +12,6 @@ app.get('/json', function(req, res) {
 	res.sendFile(path.join(__dirname, 'public', 'json', 'dashboard.json'));
 });
 
-app.listen(3000, function() {
-	console.log('Server listening on port 3000!');
+app.listen(5050, function() {
+	console.log('Test server listening on port 5050!');
 });
