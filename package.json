@@ -10,6 +10,7 @@
   "author": "Mathew Horner",
   "license": "ISC",
   "dependencies": {
-    "express": "latest"
+    "express": "latest",
+    "request": "^2.87.0"
   }
 }
