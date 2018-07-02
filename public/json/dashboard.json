@@ -29,7 +29,19 @@
 				"description": "PBS Newshour's youtube page."
 			}
         },
-        "Tech and Development Reading": {
+		"Tech Links": {
+			"heroku": {
+				"linkTitle": "Heroku",
+				"link": "https://www.heroku.com/",
+				"description": "Heroku cloud hosting platform (links directly to my dashboard.)"
+			},
+			"ufg": {
+				"linkTitle": "Up For Grabs",
+				"link": "https://up-for-grabs.net/#/",
+				"description": "Up For Grabs is a site to discover open source projects that are actively seeking contributors."
+			}
+		},
+        "Tech Reading": {
 			"sfed": {
 				"linkTitle": "Software Engineering Daily",
 				"link": "https://softwareengineeringdaily.com/",
