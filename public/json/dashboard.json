@@ -1,6 +1,6 @@
 {
     "sections": {
-        "Most Visited": {
+        "Favorites": {
             "reddit": {
                 "linkTitle": "reddit",
                 "link": "http://www.reddit.com",
@@ -17,6 +17,18 @@
                 "description": "Link to my youtube home page."
             }
         },
+		"Social Media": {
+			"lnkin": {
+				"linkTitle": "LinkedIn",
+				"link": "http://www.linkedin.com",
+				"description": "Link to my LinkedIn feed."
+			},
+			"fb": {
+				"linkTitle": "Facebook",
+				"link": "http://www.facebook.com",
+				"description": "Link to my Facebook feed."
+			}
+		},
 		"News and Politics": {
             "bbc": {
 				"linkTitle": "BBC News",
@@ -56,9 +68,19 @@
                 "linkTitle": "Better Dev Link",
                 "link": "https://betterdev.link/",
                 "description": "A site that links to articles from many different areas of software development. Updated Weekly."
-            }
+            },
+			"conceptscsharp": {
+				"linkTitle": "Programming Concepts in C#",
+				"link": "https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/",
+				"description": "A repository of information on the specifics of C# features."
+			}
         },
         "Development Documentation": {
+			"csharp": {
+				"linkTitle": "C#",
+				"link": "https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/",
+				"description": "Documentation for C#."
+			},
             "node": {
                 "linkTitle": "NodeJS",
                 "link": "https://nodejs.org/api/",
