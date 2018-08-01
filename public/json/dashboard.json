@@ -42,6 +42,11 @@
 			}
         },
 		"Tech Links": {
+            "leetcode": {
+                "linkTitle": "LeetCode",
+                "link": "https://leetcode.com/",
+                "description": "LeetCode - programming challenge site."
+            },
 			"heroku": {
 				"linkTitle": "Heroku",
 				"link": "https://www.heroku.com/",
