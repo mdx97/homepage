@@ -27,23 +27,41 @@ img {
     position: fixed;
     top: 0;
     left: 0;
-    height: 100%;
-    min-width: 250px;
-    width: 15%;
+    height: 60px;
+    width: 100%;
 }
+
+@media only screen and (min-width: 992px) {
+    .sidebarWrapper {
+        height: 100%;
+        min-width: 250px;
+        width: 15%;
+    }
+}
+
 .sidebar {
-    text-align: center;
+    text-align: left;
     background-color: #000;
     height: 100%;
     width: 100%;
     box-shadow: 1px 0px 2px #000;
 }
-
+@media only screen and (min-width: 992px) {
+    .sidebar {
+        text-align: center;
+    }
+}
 .sidebar h2 {
     margin: 0;
-    padding: 50px 0px 0px 0px;
+    padding: 15px 0px 0px 15px;
     color: #FFF;
     font-weight: 300;
+}
+
+@media only screen and (min-width: 992px) {
+    .sidebar h2 {
+        padding: 50px 0px 0px 0px;
+    }
 }
 
 .sidebar h2 img {
@@ -65,9 +83,16 @@ img {
 }
 
 .arrowButton {
+    visibility: hidden;
     border: none;
     margin-top: 5px;
     opacity: 0.5;
+}
+
+@media only screen and (min-width: 992px) {
+    .arrowButton {
+        visibility: visible;
+    }
 }
 
 .arrowButton:focus {
@@ -85,7 +110,14 @@ img {
 */
 
 .sidebar .sidebarSections {
-    margin-top: 40px;
+    visibility: hidden;
+}
+
+@media only screen and (min-width: 992px) {
+    .sidebar .sidebarSections {
+        visibility: visible;
+        margin-top: 40px;
+    }
 }
 
 .sidebar .sidebarSections .sidebarSectionTitle {
@@ -151,9 +183,18 @@ img {
 /*
     Dashboard
 */
+
 .dashboardWrapper {
-    margin-left: 15%;
+    margin: 0;
+    padding-top: 50px;
     text-align: center;
+}
+
+@media only screen and (min-width: 992px) {
+    .dashboardWrapper {
+        padding-top: 0px;
+        margin-left: 15%;
+    }
 }
 
 .dashboard {
